@@ -35,7 +35,7 @@ if __name__ == '__main__':
             topHot += f"{index} {text}"
         topHot += '\n'
         index += 1
-    topHot = topHot[:-2]
+    topHot = topHot[:-1]
     updateGist('SinaTopHot.txt', topHot)
     
 
